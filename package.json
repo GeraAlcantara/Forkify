@@ -1,0 +1,21 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.7"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-nightly.540",
+    "sass": "^1.32.4"
+  }
+}
