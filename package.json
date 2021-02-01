@@ -5,7 +5,7 @@
   "default": "index.html",
   "private": true,
   "scripts": {
-    "start": "parcel index.html",
+    "dev": "webpack-dev-server --open",
     "build": "webpack "
   },
   "author": "",
@@ -20,11 +20,13 @@
     "@babel/preset-env": "^7.12.11",
     "babel-loader": "^8.2.2",
     "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^4.5.1",
     "parcel": "^2.0.0-nightly.540",
     "sass": "^1.32.5",
     "sass-loader": "^10.1.1",
     "style-loader": "^2.0.0",
     "webpack": "^5.19.0",
-    "webpack-cli": "^4.4.0"
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }

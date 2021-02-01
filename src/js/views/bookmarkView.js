@@ -1,6 +1,6 @@
 import View from './View.js';
 import PreviewView from './previewView.js';
-import icons from 'url:../../img/icons.svg';
+import icons from '../../img/icons.svg';
 import previewView from './previewView.js';
 
 class BookmarkView extends View {
