@@ -1,6 +1,6 @@
 import View from './View.js';
 import PreviewView from './previewView.js';
-import icons from 'url:../../img/icons.svg';
+import icons from '../../img/icons.svg';
 
 class ResultView extends View {
   constructor(data) {

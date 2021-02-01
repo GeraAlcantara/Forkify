@@ -8,7 +8,7 @@ import addRecipeView from './views/addRecipeView';
 import { MODAL_CLOSE_SEC } from './config.js';
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
-import { async } from 'regenerator-runtime/runtime';
+import '../sass/main.scss';
 
 // if (module.hot) {
 //   module.hot.accept();
